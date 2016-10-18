@@ -1,0 +1,56 @@
+/*The first load css style*/
+/*网站的初始化样式*/
+a{
+	color: rgba(0,0,0,1);
+	text-decoration: none;
+}
+*{
+	margin:0;
+	padding: 0;
+}
+.fl_lt{
+	float: left;
+}
+.fl_rt{
+	float: right;
+}
+.cl{
+	clear: both;
+}
+
+/*This is the Web public css style*/
+/*这是网站的公共样式*/
+.header_bg{
+	background:rgba(255,0,0,0.6);
+}
+.header{
+	
+	margin: 0 auto 0;
+	position: relative;
+	/*绝对定位*/
+	/*position: absolute;*/
+	width:80%;
+}
+.logo{
+	float:left;
+}
+.wel_msg{
+	float: right;
+}
+.main_bg{
+	background: rgba(0,255,0,0.6);
+}
+.main{
+	margin: 0 auto 0;
+	position: relative;
+	width:80%;
+}
+.foot_bg{
+	background: rgba(128,128,128,0.8);
+	/*width:80%;*/
+}
+.foot{
+	margin: 0 auto 0;
+	position: relative;
+	width:80%;
+}

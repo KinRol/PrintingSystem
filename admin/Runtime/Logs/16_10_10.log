@@ -1,0 +1,190 @@
+[ 2016-10-10T12:44:45+08:00 ] 0.0.0.0 /myphpWeb/PrintingSystem/admin.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.036660s ]
+INFO: [ route_check ] --END-- [ RunTime:0.036901s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\learning\PHP\Web\PrintingSystem\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\learning\PHP\Web\PrintingSystem\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\learning\PHP\Web\PrintingSystem\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: msg D:\learning\PHP\Web\PrintingSystem\admin\Runtime\Cache\fb2be52d765518fc15777abc6b25a348.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.110237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110396s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000519s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000502s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000328s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002381s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000701s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2016-10-10T12:44:50+08:00 ] 0.0.0.0 /myphpWeb/PrintingSystem/admin.php/Login/loginCheck
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001275s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001568s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+NOTIC: [2048] Declaration of LoginModel::check() should be compatible with Model::check($value, $rule, $type = 'regex') D:\learning\PHP\Web\PrintingSystem\admin\Lib\Model\LoginModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `tb_login` [ RunTime:0.008834s ]
+ERR: 1146:Table 'db_printing.tb_login' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_login`
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.034624s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `userName` = 'admin' ) AND ( `userPwd` = 'admin' ) LIMIT 1   [ RunTime:0.000716s ]
+
+[ 2016-10-10T12:44:50+08:00 ] 0.0.0.0 /myphpWeb/PrintingSystem/admin.php/Index/main.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000824s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028928s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000665s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000626s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000635s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003774s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000839s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2016-10-10T12:51:24+08:00 ] 0.0.0.0 /myphpWeb/PrintingSystem/admin.php/Login/loginCheck
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001071s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.058379s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.025828s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `userName` = '' ) AND ( `userPwd` = '' ) LIMIT 1   [ RunTime:0.000774s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.204388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.204884s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002492s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002383s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001565s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010543s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002546s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002946s ]
+
+[ 2016-10-10T12:51:41+08:00 ] 0.0.0.0 /myphpWeb/PrintingSystem/admin.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000867s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\learning\PHP\Web\PrintingSystem\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\learning\PHP\Web\PrintingSystem\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\learning\PHP\Web\PrintingSystem\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: msg D:\learning\PHP\Web\PrintingSystem\admin\Runtime\Cache\fb2be52d765518fc15777abc6b25a348.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010059s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000581s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000557s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000353s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002616s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000712s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-10-10T12:51:45+08:00 ] 0.0.0.0 /myphpWeb/PrintingSystem/admin.php/Login/loginCheck
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000991s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.066336s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006145s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `userName` = 'admin' ) AND ( `userPwd` = 'admin' ) LIMIT 1   [ RunTime:0.000643s ]
+
+[ 2016-10-10T12:51:45+08:00 ] 0.0.0.0 /myphpWeb/PrintingSystem/admin.php/Index/main.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000685s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009612s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000463s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000451s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000278s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002184s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000715s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2016-10-10T12:52:29+08:00 ] 0.0.0.0 /myphpWeb/PrintingSystem/admin.php/Login/loginCheck
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001091s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001328s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.166097s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006316s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `userName` = 'admin' ) AND ( `userPwd` = 'admnin' ) LIMIT 1   [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000450s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000466s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000278s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002234s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000632s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2016-10-10T12:52:35+08:00 ] 0.0.0.0 /myphpWeb/PrintingSystem/admin.php/Login/loginCheck
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001285s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.047040s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.030635s ]
+SQL: SELECT * FROM `tb_user` WHERE ( `userName` = 'admin' ) AND ( `userPwd` = 'admin' ) LIMIT 1   [ RunTime:0.000360s ]
+
+[ 2016-10-10T12:52:35+08:00 ] 0.0.0.0 /myphpWeb/PrintingSystem/admin.php/Index/main.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000718s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009276s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000503s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000507s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000374s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002389s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000615s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000755s ]
+
